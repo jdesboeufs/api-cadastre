@@ -1,0 +1,37 @@
+{
+  "name": "@etalab/api-cadastre",
+  "version": "0.0.0",
+  "description": "API Cadastre",
+  "main": "index.js",
+  "repository": "git@github.com:etalab/api-cadastre.git",
+  "author": "Jérôme Desboeufs <jerome.desboeufs@data.gouv.fr>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "xo",
+    "import-data": "node lib/import",
+    "start": "node lib/api"
+  },
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "JSONStream": "^1.3.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "get-stream": "^3.0.0",
+    "gunzip-stream": "^1.0.1",
+    "mongodb": "^3.0.7",
+    "pumpify": "^1.4.0",
+    "worker-farm": "^1.6.0"
+  },
+  "devDependencies": {
+    "xo": "^0.20.3"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}
