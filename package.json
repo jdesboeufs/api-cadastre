@@ -13,6 +13,7 @@
     "start": "node lib/api"
   },
   "dependencies": {
+    "@etalab/cog": "^0.1.0",
     "@turf/turf": "^5.1.6",
     "JSONStream": "^1.3.2",
     "cors": "^2.8.4",
@@ -20,6 +21,7 @@
     "express": "^4.16.3",
     "get-stream": "^3.0.0",
     "gunzip-stream": "^1.0.1",
+    "lodash": "^4.17.10",
     "mongodb": "^3.0.7",
     "pumpify": "^1.4.0",
     "worker-farm": "^1.6.0"
