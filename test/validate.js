@@ -5,3 +5,8 @@ test('duplicate vertices', t => {
   const geometry = require('./fixtures/validate/duplicate-vertices.json')
   t.false(isValid(geometry))
 })
+
+test('weird holes', t => {
+  const geometry = require('./fixtures/validate/weird-holes.json')
+  t.false(isValid(geometry))
+})
