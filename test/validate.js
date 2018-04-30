@@ -15,3 +15,8 @@ test('incredible self intersection', t => {
   const geometry = require('./fixtures/validate/incredible-self-intersection.json')
   t.false(isValid(geometry))
 })
+
+test('weird holes 2', t => {
+  const geometry = require('./fixtures/validate/weird-holes-2.json')
+  t.false(isValid(geometry))
+})
