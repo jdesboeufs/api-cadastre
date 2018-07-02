@@ -18,14 +18,15 @@
     "@turf/intersect": "^6.1.2",
     "@turf/turf": "^5.1.6",
     "JSONStream": "^1.3.2",
+    "bluebird": "^3.5.1",
     "cors": "^2.8.4",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
-    "get-stream": "^3.0.0",
+    "got": "^8.3.1",
     "gunzip-stream": "^1.0.1",
     "lodash": "^4.17.10",
+    "mississippi": "^3.0.0",
     "mongodb": "^3.0.7",
-    "pumpify": "^1.4.0",
     "worker-farm": "^1.6.0"
   },
   "devDependencies": {
